@@ -1,16 +1,52 @@
-# React + Vite
+# TaskFlow — Görev Yönetimi Uygulaması
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+TaskFlow, React ve JavaScript kullanılarak geliştirilmiş, kullanıcıların günlük görevlerini yönetmesini sağlayan modern bir web uygulamasıdır.
 
-Currently, two official plugins are available:
+## Özellikler
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Görev ekleme ve listeleme
+- Görev başlığını düzenleme
+- Görev silme
+- Görevleri tamamlandı olarak işaretleme
+- Tüm görevler, devam edenler ve tamamlananlar arasında filtreleme
+- LocalStorage ile görevleri tarayıcıda saklama
+- Responsive arayüz tasarımı
 
-## React Compiler
+## Kullanılan Teknolojiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- JavaScript
+- Vite
+- CSS
+- LocalStorage
+- Git ve GitHub
+- Netlify
 
-## Expanding the ESLint configuration
+## Canlı Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+https://illustrious-torte-bddbf8.netlify.app/
+
+## Kaynak Kodları
+
+https://github.com/durubagdadioglu/taskflow
+
+## Yerel Ortamda Çalıştırma
+
+Projeyi bilgisayarınıza indirdikten sonra terminalde şu komutları çalıştırın:
+
+```bash
+npm install
+npm run dev
+```
+
+## Üretim Derlemesi
+
+```bash
+npm run build
+```
+
+Derleme çıktısı `dist` klasöründe oluşturulur.
+
+---
+
+Bu proje, modern frontend geliştirme becerilerini uygulamak amacıyla hazırlanmıştır.
